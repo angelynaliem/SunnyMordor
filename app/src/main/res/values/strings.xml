@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sunny Mordor</string>
+    <string name="featured">Featured</string>
+    <string name="generalInfo">General Info</string>
+    <string name="visiting">Visiting</string>
+    <string name="livingHere">Living Here</string>
+
+    <string name="sponsors">Sponsors</string>
+
+    <string name="history">History</string>
+    <string name="geography">Geography</string>
+    <string name="language">Language</string>
+
+    <string name="travelling">Travelling</string>
+    <string name="attractions">Attractions</string>
+    <string name="necessities">Necessities</string>
+    <string name="additionalInfo">Additional Information</string>
+
+    <string name="careers">Careers</string>
+    <string name="housing">Housing</string>
+
+    <string name="infoImage">Information Image</string>
+</resources>
