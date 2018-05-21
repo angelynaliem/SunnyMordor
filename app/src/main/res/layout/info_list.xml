@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -14,23 +15,26 @@
         <TextView
             android:id="@+id/goto0"
             android:tag="0"
-            android:textColor="@android:color/white"
-            style="@style/gotoButton"/>
+            style="@style/gotoButton"
+            tools:ignore="SelectableText" />
 
         <TextView
             android:id="@+id/goto1"
             android:tag="1"
-            style="@style/gotoButton"/>
+            style="@style/gotoButton"
+            tools:ignore="SelectableText" />
 
         <TextView
             android:id="@+id/goto2"
             android:tag="2"
-            style="@style/gotoButton"/>
+            style="@style/gotoButton"
+            tools:ignore="SelectableText" />
 
         <TextView
             android:id="@+id/goto3"
             android:tag="3"
-            style="@style/gotoButton"/>
+            style="@style/gotoButton"
+            tools:ignore="SelectableText" />
     </LinearLayout>
 
     <ListView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -39,5 +43,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="@dimen/dividerHeight"
         android:drawSelectorOnTop="true"/>
 </LinearLayout>

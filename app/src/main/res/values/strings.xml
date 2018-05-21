@@ -13,11 +13,107 @@
 
     <string name="travelling">Travelling</string>
     <string name="attractions">Attractions</string>
-    <string name="necessities">Necessities</string>
+    <string name="lodging">Lodging</string>
     <string name="additionalInfo">Additional Information</string>
 
     <string name="careers">Careers</string>
     <string name="housing">Housing</string>
 
     <string name="infoImage">Information Image</string>
+
+    <string name="myInfos">myInfos</string>
+    <string name="myGotos">myGotos</string>
+
+    <string name="sunnyMordor">Visit Middle-earth&#8217;s hottest new vacation spot.\n\n
+        Enjoy all Mordor has to offer from invigorating hikes through the Dead Marshes to mountain
+        biking down Mount Doom.\n\n
+        Come for the grog, stay because you have no choice.
+    </string>
+
+    <string name="butcher">Klogg&#8217;s Butcher Shop\n\n
+        www.hobbitsforlunch.com\n\n
+        Meat&#8217;s back on the menu boys.</string>
+    <string name="nazgulAir">Fly Nazgul Air&#8230;daily non-stop flights&#8230;because one does not
+        simply walk into Mordor.\n\n
+        (10% discount for all hobbits, must declare all valuables prior to boarding)</string>
+    <string name="preciousTours">Personalized tourses of Mordor.  We shows it around&#8230;and then
+        we eats it!!  No, no, no, we wouldn&#8217;t do that precious.\n\n
+        It books its tour now at PreciousTourses.com</string>
+
+    <string name="history1">Mordor&#8217;s past has been quite turbulent, impacted heavily by
+        aggressive economic and territorial sanctions by the colonialistic nations of western
+        Middle-Earth. Mordor has suffered heavily under the weight of illegally imposed war
+        reparations which challenge its right to sovereign rule.</string>
+    <string name="history2">In 2460, the Great Lord Sauron returned to power, touting his &#8220;Make
+        Mordor Great Again&#8221; campaign. Investing heavily into Mordor&#8217;s infrastructure and
+        defensive capabilities, the region&#8217;s unemployment rate dropped to an all-time low of
+        -25%.  This was also a time of strong governmental support for the arts (well, ok, the
+        Black Arts).</string>
+
+    <string name="geography1">Warmed by the ever-present heat of Mount Doom, Mordor enjoys atypically
+        warm weather all year long.</string>
+    <string name="geography2">Massive mountain ranges to the North, West and South offer natural
+        protection from aggressive neighboring nations for the peace-loving citizens of Mordor.</string>
+    <string name="geography3">In the South, the Sea of Nurnen is a popular vacation destination and
+        retirement spot.</string>
+
+    <string name="blackSpeech">Black Speech is the national language of Mordor, with a heavy Orcish
+        accent, sounding remarkably like Cockney. Some useful phrases to learn :\n\n
+        Akhoth!!\nYes, Sir!!\n\n
+        Amut alai&#8217;aaps throquuz?\n
+        What kind of meat did I eat?\n\n
+        Nar-azatizish!\n
+        Don&#8217;t kill me!</string>
+
+    <string name="passes">Many passes through the mountainous borders of Mordor are available for
+        travel, including Cirith Gorgor, Cirith Ungol and the Morgul Pass.\n\n
+        Please note that security
+        on these paths is quite heavy so make sure you have current identification on you at all
+        times as well as adequate currency for sanctioned guard appeasement fees.</string>
+
+    <string name="palace">Barad-dur\n\n
+        The royal palace is a popular attraction.  Free admission on the second Thursday of each month\n\n
+        Visible from all of Mordor, just follow the big red eye.</string>
+    <string name="blackGate">Morannon, the Black Gate\n\n
+        Probably the largest, blackest gate you will ever see, spanning all of
+        Cirith Gorgor.\n\n
+        Arrive early to avoid long lines.</string>
+    <string name="mountDoom">Mount Doom\n\n
+        Trek to the top of this natural wonder for an unbeatable view of Mordor or visit the Crack
+        of Doom to see actual lava flows.\n\n
+        (Sorry, no hobbits allowed at this attraction at this time.)</string>
+
+    <string name="honeymoonSuite">Barad-Dur Honeymoon Suite\n\n
+        Spare no expense for a once-in-a-lifetime (possibly quite literally) stay at the palace of
+        Lord Sauron himself.  Brad and Angelina stayed here and you can too.</string>
+    <string name="overlook">Overlook Hotel\n\n
+        For those seeking a little more seclusion, the Overlook Hotel, high in the mountains is
+        perfect for a quiet escape.  Nothing like a little peace and quite to help you really get
+        in touch with yourself.</string>
+    <string name="shelob">Shelob&#8217;s Lair\n\n
+        For those of you with a stricter budget, this no frills location is the perfect choice. It
+        may not be the cleanest place to rest your head and you may have to put up with a few
+        cobwebs, but the price cannot be beaten.\n\n
+        Be sure to stay for breakfast, just not as breakfast.</string>
+
+    <string name="noPhotos">In some areas, especially near the Black Gate, photographing military
+        installations, government buildings, or even transport infrastructure can get you in trouble.
+        If in doubt, cautiously and politely ask an orc captain, while trying not to smell too tasty.</string>
+    <string name="noJokes">The invasion by the Last Alliance of Elves and Men is still a sensitive
+        and painful matter for most Mordorians, and should not be talked about in a jesting manner.
+        Similarly, save your orc jokes for when you get home. They have heard the jokes before, and
+        don&#8217;t find them particularly humorous or endearing.</string>
+    <string name="pointyHat">If you a meet an elderly chap with a big grey beard and a pointy hat,
+        ignore everything he says. He will try to make you do something dangerous. He is quite
+        persistent, so if he gets too annoying, feed him to a Balrog\n\n
+        He may reappear a few weeks
+        later looking all white and shiny, but don&#8217;t be deceived as he will try to make you kill
+        yourself again.</string>
+
+    <string name="army">There are many career opportunities in Mordor for a young entrepreneur. You
+        can become a soldier in the army, or a standard-bearer in the army, or cook for the army, the
+        possibilities are endless.\n\n
+        Sign-on bonuses available for those who have their own sharp, pointy stick.</string>
+    <string name="caves">There is no shortage of places to claim as your own, from large spacious
+        caverns to small, cozy holes in the ground.</string>
 </resources>

@@ -48,7 +48,7 @@ public class infoViewAdapter extends ArrayAdapter<MordorInfo> {
 
 
         ImageView infoImage = listItem.findViewById(R.id.infoImageView);
-        if (currentInfo.pic != -1) {
+        if (currentInfo.pic != CategoryAdapter.NO_PIC) {
             // info block
             infoWordsText.setVisibility(View.VISIBLE);
             infoImage.setVisibility(View.VISIBLE);

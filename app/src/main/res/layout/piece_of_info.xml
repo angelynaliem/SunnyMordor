@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -7,23 +8,27 @@
     <ImageView
         android:id="@+id/infoImageView"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="@dimen/infoImageHeight"
         android:contentDescription="@string/infoImage"/>
 
     <TextView
         android:id="@+id/infoWordsView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#ffffff"/>
+        android:textColor="@color/textColor"
+        android:padding="8dp"
+        android:gravity="center"
+        tools:ignore="SelectableText" />
 
     <TextView
         android:id="@+id/infoGoto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
+        android:textSize="@dimen/categoryTextSize"
+        android:textColor="@color/textColor"
         android:textStyle="bold"
         android:lines="3"
-        android:background="@drawable/gradient_bg"/>
+        android:background="@drawable/gradient_bg"
+        tools:ignore="SelectableText" />
 </LinearLayout>

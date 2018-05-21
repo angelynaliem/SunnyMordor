@@ -1,12 +1,13 @@
 package com.example.android.sunnymordor;
 
-import android.widget.TextView;
 
-public class GotoButton {
+import java.io.Serializable;
+
+// stores info used by text buttons to jump to category headers in ListViews
+public class GotoButton implements Serializable {
     public int textViewRes;
     public String name;
     public int position;
-    public TextView text;
 
     GotoButton(int tvR, String n, int p) {
         textViewRes = tvR;
