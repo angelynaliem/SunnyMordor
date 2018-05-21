@@ -1,6 +1,5 @@
 package com.example.android.sunnymordor;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -113,14 +112,14 @@ public class PageFragment extends Fragment implements View.OnClickListener {
     // highlight a navigation TextView
     private void highlightButton(TextView v) {
         if (prevGoto != null) {
-            prevGoto.setTextColor(Color.GRAY);
+            prevGoto.setTextColor(getResources().getColor(R.color.greyedOutText));
         }
         prevGoto = v;
 
-        v.setTextColor(Color.WHITE);
+        v.setTextColor(getResources().getColor(R.color.textColor));
     }
 
-    // scroll to a header catgory in the ListView
+    // scroll to a header category in the ListView
     private void jumpToView(int position) {
         infoListView.smoothScrollToPositionFromTop(position, 10);
     }

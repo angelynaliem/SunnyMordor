@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-// Implements a custom array adapter for out Miwok_word class
+// custom array adapter
 public class infoViewAdapter extends ArrayAdapter<MordorInfo> {
 
     private Context myContext;

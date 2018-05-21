@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         // Set the adapter onto the view pager
         if (viewPager != null) {
             viewPager.setAdapter(adapter);
-            viewPager.setOffscreenPageLimit(3);
+            viewPager.setOffscreenPageLimit(CategoryAdapter.NUM_PAGE_FRAGS - 1);
         }
 
         // Give the TabLayout the ViewPager
