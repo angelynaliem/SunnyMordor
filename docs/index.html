@@ -1,0 +1,68 @@
+<style>
+    .side-text {
+	    margin-left: 20px;
+	}
+</style>
+		
+<head>
+	<title>Sunny Mordor</title>
+	<link rel="stylesheet" type="text/css" href="myStyles.css">
+</head>
+
+<html>	
+<body>
+<div>
+	<div class="text-left indentleft center">
+		<video id="stevequiz" width="80%" controls preload >
+			<source src="sunnymordor.mp4">
+		</video>
+	</div>
+
+	<div class="text-right">
+		<p>A project using Fragments, ViewPagers and TabLayouts to provide graceful access to multiple pages
+			of information.  It sets up a Page Fragment and a ViewPager to allow users to swipe from one page to
+			another and a TabLayout to show users where they are and allow jumping to a specific page.  I also
+			included clickable text navigation in each page to support jumping to specific sections on each page.<br/><br/>
+		Adding the per page navigation was a bit tricky :<br/>
+		</p>
+		<ul>
+			<li>I had to save the ArrayList position of the entries that started a new page section and then associate
+				them with a clickable TextView
+			</li>
+			<li>made use of smoothScrollToPositionFromTop() to scroll to needed positions when a navigation
+				TextView was clicked on
+			</li>
+			<li>highlighting the clicked navigation TextView was easy, but I also I had to save a pointer to it so it could be
+				grayed out when a new navigation TextView was clicked on
+			</li>
+			<li>Getting the navigation views to highlight automatically when a user scrolled down to a new page
+				section was a bit tricky, but it turned out really well.  I had to send a callback to the ArrayAdapter
+				so it could tell my Fragment code when an element corresponding to a page section header was
+				inflated.  Then the Fragment could highlight the corresponding navigation TextView.
+			</li>
+			<li>I figured out how to create a ListView of views with different formats.  A page's ListView consisted of
+				section header views which consisted only of a TextView with short text in a large font size and info
+				sections which consisted of an ImageView and a larger amount of text in a smaller font size.  My
+				ArrayAdapter had to dynamically decide which views to show and which to hide based on what type of
+				content it was showing
+			</li>
+		</ul>
+		
+		<div class="center">
+			<p><br/><br/><br/>
+				Check out the code at the project repo<br/><br/>
+				<a class="white-text" href="https://github.com/sdocy/SunnyMordor" target="_blank">https://github.com/sdocy/SunnyMordor</a><br/><br/>
+			</p>
+			
+			<p><br/><br/>Send me feedback, questions, or ideas</p>
+			<address>
+				<a href="mailto:sdocy@comcast.net">sdocy@comcast.net</a>
+			</address>
+		</div>
+		
+	</div>
+</div>
+</body>
+</html>
+
+
